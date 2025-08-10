@@ -1,54 +1,55 @@
 # Waveform Theme
 
-A dark, fiery theme inspired by a mystical unicorn trapped in the depths of hell. Combines burning reds and oranges with magical purples and pinks for a unique hellfire aesthetic.
+A dark, modern theme inspired by audio waveforms and neon signals. Deep charcoal bases are accented by magentas, reds, and pinks for a sleek, high-contrast look.
 
 ## Theme Concept
-- **Unicorn in Hell**: Merging mythical beauty with infernal chaos
-- **Fire & Magic**: Hellfire reds meet unicorn purples
-- **Dark Base**: Deep blacks for the underworld atmosphere
+- **Signal & Flow**: Smooth waveform lines and motion-inspired accents
+- **Neon Accents**: Magenta and red highlights on a deep, neutral base
+- **Clarity in Darkness**: High contrast for legibility in low light
 
 ## Color Palette
 
 ### Base Colors
-- **Background**: `#0a0a0a` - Deepest hell black
-- **Foreground**: `#ff9999` - Pale fire pink
-- **Secondary Background**: `#1a0a0a` - Charred black
+- **Background**: `#0a0a0a` - Deep charcoal
+- **Foreground**: `#ff9999` - Soft neon pink
+- **Secondary Background**: `#1a0a0a` - Oxide brown
 
 ### Accent Colors
-- **Primary**: `#ff00ff` - Mystical unicorn magenta
-- **Secondary**: `#ff3333` - Hellfire red
-- **Success**: `#ff6600` - Molten orange (success in hell is different)
-- **Warning**: `#ffaa00` - Flame yellow
-- **Error**: `#ff0000` - Pure fire
-- **Info**: `#cc00ff` - Unicorn purple
+- **Primary**: `#ff00ff` - Neon magenta
+- **Secondary**: `#ff3333` - Signal red
+- **Success**: `#ff6600` - Warm orange
+- **Warning**: `#ffaa00` - Amber
+- **Error**: `#ff0000` - Pure red
+- **Info**: `#cc00ff` - Electric purple
 
 ### Terminal Colors
-| Color    | Normal    | Bright    | Description           |
-|----------|-----------|-----------|----------------------|
-| Black    | `#1a0a0a` | `#4a2020` | Charred/Smoky ember  |
-| Red      | `#ff3333` | `#ff6666` | Hellfire/Bright flames |
-| Green    | `#ff6600` | `#ff9933` | Molten orange/Lava   |
-| Yellow   | `#ffaa00` | `#ffcc33` | Flame/Solar flare    |
-| Blue     | `#cc00ff` | `#dd66ff` | Unicorn purple       |
-| Magenta  | `#ff00aa` | `#ff33cc` | Hot pink magic       |
-| Cyan     | `#ff66cc` | `#ff99dd` | Mystic rose          |
-| White    | `#ffcccc` | `#ffffff` | Ash/Pure unicorn white |
+| Color    | Normal    | Bright    | Description                 |
+|----------|-----------|-----------|----------------------------|
+| Black    | `#1a0a0a` | `#4a2020` | Charcoal / muted           |
+| Red      | `#ff3333` | `#ff6666` | Signal red / bright red    |
+| Green    | `#ff6600` | `#ff9933` | Orange / bright orange     |
+| Yellow   | `#ffaa00` | `#ffcc33` | Amber / bright amber       |
+| Blue     | `#cc00ff` | `#dd66ff` | Electric purple / violet   |
+| Magenta  | `#ff00aa` | `#ff33cc` | Hot pink / bright magenta  |
+| Cyan     | `#ff66cc` | `#ff99dd` | Rose / bright rose         |
+| White    | `#ffcccc` | `#ffffff` | Soft white / pure white    |
 
 ## Features
-- **Gradient Borders**: Window borders transition from unicorn magenta to hellfire red
-- **Fire Gradients**: System monitors show temperature-inspired gradients
-- **Mystical Glow**: UI elements have subtle magical glows and shadows
-- **High Contrast**: Ensures readability in the darkness of hell
+- **Gradient Borders**: Window borders transition from neon magenta to signal red
+- **Waveform Lines**: Graphs and meters echo audio wave patterns
+- **Subtle Glow**: UI elements use soft neon glows and shadows
+- **High Contrast**: Tuned for readability in low-light environments
+- **Lock Screen Motif**: Centered ASCII waveform motif on Hyprlock
 
 ## Components Included
-- Terminal (Alacritty) - Fire-themed terminal colors
-- Window Manager (Hyprland) - Gradient fire borders
-- Status Bar (Waybar) - Infernal status indicators
-- Notifications (Mako) - Hellfire notification borders
-- App Launcher (Walker) - Mystical search interface
+- Terminal (Alacritty) - Waveform-aligned terminal colors
+- Window Manager (Hyprland) - Magenta→red gradient borders
+- Status Bar (Waybar) - Signal-toned indicators
+- Notifications (Mako) - Accent border highlights
+- App Launcher (Walker) - Clean search with neon accents
 - OSD (SwayOSD) - Gradient progress bars
-- System Monitor (Btop) - Fire-inspired gradients
-- Lock Screen (Hyprlock) - "Welcome to Waveform"
+- System Monitor (Btop) - Waveform-inspired gradients
+- Lock Screen (Hyprlock) - "Welcome to Waveform" + waveform ASCII art
 - Text Editor (Neovim) - Dark torte colorscheme
 - Icons - Red-dark Yaru icons
 
@@ -59,12 +60,12 @@ A dark, fiery theme inspired by a mystical unicorn trapped in the depths of hell
 
 ## Wallpaper Suggestions
 Look for images featuring:
-- Volcanic landscapes with purple skies
-- Fantasy art with fire and unicorns
-- Abstract fire patterns with magenta accents
-- Dark mystical scenes with red/purple lighting
+- Abstract waveforms and spectrograms
+- Neon magenta/red gradients on dark backgrounds
+- Minimal geometric lines and grids
+- City nightscapes with magenta/pink lighting
 
 ## Notes
-- This is a dark theme optimized for low-light environments
-- The unusual color choices are intentional - embracing the chaos of hell
+- Optimized for low-light environments
+- Color choices intentionally emphasize neon accents
 - Some applications may need additional configuration for optimal appearance
