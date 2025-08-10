@@ -1,0 +1,588 @@
+# Waveform Hyprlock Configuration
+# Colors with RGBA format for transparency
+
+$color = rgba(10,10,10,0.9)           # Deepest hell black
+$inner_color = rgba(26,10,10,0.8)     # Charred black  
+$outer_color = rgba(255,0,255,1.0)    # Unicorn magenta
+$font_color = rgba(255,153,153,1.0)   # Pale fire pink
+$check_color = rgba(255,51,51,1.0)    # Hellfire red
+$fail_color = rgba(255,0,0,1.0)       # Pure fire
+$input_color = rgba(74,32,32,0.5)     # Smoky ember background
+
+general {
+    grace = 0
+    hide_cursor = true
+}
+
+background {
+    monitor =
+    path = ~/.config/omarchy/themes/waveform/backgrounds/dc3b9142-19c7-4f9b-8578-337ed0430621.png
+    blur_size = 5
+    blur_passes = 2
+    noise = 0.02
+    brightness = 0.8
+}
+
+
+label {
+    monitor =
+    text = $TIME
+    color = $font_color
+    font_size = 64
+    font_family = JetBrainsMono Nerd Font Bold
+    position = 0, 100
+    halign = center
+    valign = center
+}
+
+# Large ASCII Art - Waveform motif (tiny font)
+label {
+    monitor =
+    text = ............... ...    .                                                                                                                                            
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 400
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ..................... . .  .                                                                                                                                        
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 395
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .....................  . .  .                                                                                                                                       
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 390
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ...................... . .   .  .                                                                                                                                   
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 385
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .................. ... . ...  .                                                                                                                                     
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 380
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ................... ... . .      .                                                                                                                                  
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 375
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .......................... .. .    .                                                                                                                                
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 370
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ......................... . .  . .   .                                                                                                                              
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 365
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .......................... . ..                                                                                                                                .    
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 360
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ............................ . .. .   .                                                                                              .  .                -.         
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 355
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ........................... . .     .                                                                                          +                        -.    .     
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 350
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ............................ . .. .    .                                                                                      --                      .- ..~        
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 345
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ............................. . .  .                                                                                    ..                          ++..-^ ..       
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 340
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ............................. .. ..  .  .                                                                                ..               -      --+.-.^ ..~        
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 335
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ................................ .  .                                                                .               ~. -                 .  +----~-- .--..         
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 330
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ................................ .. . .                                                                             -..      -         . ^-.~- -~+.~--. .-          
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 325
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ................................. .  .  .                                                                          ..-- .          > ->-.- -~^.+>+~ .-.+            
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 320
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .................................. .. .  .                                                                        -.-. .          ~ .-..+--~^> .-~~.-.  -           
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 315
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ................................... . .   .                                                       ~   .   -     ~. . .          (. .-.~~.-^^^^++^ .-~+~             
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 310
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ..................................... . .   .                                                    .>++[+~-+   .++.-.-..--      [..... .~- ~^++~-~~-~>                
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 305
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ...................................... . . .  .                                                <>^- +  .-~-+^<^~+~~.  . -.   --  -.+ ~~^~^+-~+>+++~^                
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 300
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ........................................  . .  ..                                               <+--    . ..+~~+>>~-..      ..-   ~.~  ~+~~+-~+~---                 
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 295
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ...................................... ...  .    .                                              (-+-      ~  .~-++^<-~..   . -  .~^  ..--+- .                       
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 290
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .......................................... . ..   .                                            (  .        . ..-.~>~^-...  - -.  .+-~.+~-.>+^+~                     
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 285
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ........................................... ... .  . .                                            .-++..    . ..+.^>+. .. < -. -. ~~-~~-~-+--                       
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 280
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ........................................... ...  .   .  .                                    ^   .    }-.   --  ~~><+..~ ~ - --.-+-~~~--<~                          
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 275
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .................................................. .  .  .     .                              ^+~     [-..       + -+--~-.~  .^~ +~-+~                              
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 270
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .............................................. .... . .  . .                                          ^~..    . ...-.. ..--.- ~.^~~ -                               
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 265
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ................................................. .. . ..  . .  .                                     <+...        .  --.. .-++>+(                                  
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 260
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .................................................. ...... .  .   .                                    ^+~^.       ..  .. . +~                                       
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 255
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .................................................... ....  . . .  . .                                 ~+>~                .~~~++<                                   
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 250
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ........................................................ ..    ..        .                           >>>^+-      .        .--.  .~^>                              . 
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 245
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ........................................................ .. .   . .. .     .                          ~>~~~.    --        ..~-   .++^<^+^(>~                      ..
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 240
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ............................................................ ..   .   .     .                         -~^~~~~.  .   ..   ...~~   ~.-~^>.~- .>^.        .>       .  .
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 235
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = ..............................................................  .   .  . .                        +.---.. ~~+    ^.-.----.---.-   .~~~>( .-++~+^         .      ... 
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 230
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = .............................................................. . ..   .       .                  (~- +~---.-...-.^++~~-~-~.~~-.-. ..~++<  ~-^^~~^              . ...
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 225
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =   ..............................................................  . .   .  .                      ~      +.----.  [<<>^>^>^- .--~ ..++^<    ~~~-~.^+-   .   .. . ...
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 220
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text = . . . ...........................................................  ..       .                    [~   ~-.~>             ~-~....---. -.^<      -..--+>+>~+ ..   .. ..
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 215
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =   .  .  . . .......................................................  ..  .                       ^~~  ^.>             + >-..--^   ~...-+     .   .--~+-- >-.  . . ..
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 210
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =    .  .   . .   .................................................... . .   . .                    <^+.^-                ^-.~~       ^~-~<    ...  . .~- ...........-
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 205
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =     .   .    .. .  ................................................... .. .   .                    .>.<~.  .      +     }-.+          ^-^-+..    . ..............---
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 200
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =           .    . .   .................................................  . .. . .  .                .  ^+-~ ..  ....      -+~            ~+^.....  . ..........~+-...
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 195
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =        .     .  . ..   ................................................ . .. ..  .  .  ..  ..  .  .   .. #.  .......... (-..-            +-.  .... .....+.-....--..-
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 190
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =            .  .   .  ..  ................................................. .... . ... ..  .  .. ... ................. .~-~                -~ .. . ......~.--+-~..-.-
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 185
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =                     .  .  . .................................................... ... .......... ...-................^.~  .    .   .   .. . .>- ........-......-~....
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 180
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =                   .   .  .  .  ...... .........................................................-.-....... ......+.(~+.... .. .  .      ...-.~^~.-.............-.....
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 175
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =                      .  . .  .  ...................................................-............+-.--............^-.......-.-...     ....-.<-+^---. ->-........-..-.
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 170
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =                        .   .. .  . ..........................................................~-.-~-.............^~+.....~--..--..............+~- .   ...............
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 165
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =                              . .  . ... ... ...................................-............-.-..-...~....-..--...~+-.---~~-.-.-..............          .........-..
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 160
+    halign = left
+    valign = center
+}
+
+label {
+    monitor =
+    text =                          .     . .  . ... . . .. ........................-.---.-...---....-~....-...--...-----~~~-.~--...--~+--..---.....  .          ..............
+    color = $font_color
+    font_size = 24
+    font_family = JetBrainsMono Nerd Font Mono
+    position = 0, 155
+    halign = left
+    valign = center
+}
+

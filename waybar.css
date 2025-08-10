@@ -1,0 +1,93 @@
+@define-color foreground #ff9999;  /* Pale fire pink */
+@define-color background #0a0a0a;  /* Deepest hell black */
+@define-color primary #ff00ff;     /* Unicorn magenta */
+@define-color secondary #ff3333;   /* Hellfire red */
+@define-color success #ff6600;     /* Molten orange */
+@define-color danger #ff0000;      /* Pure fire */
+@define-color warning #ffaa00;     /* Flame yellow */
+@define-color info #cc00ff;        /* Unicorn purple */
+@define-color light #ffcccc;       /* Ash white */
+@define-color dark #1a0a0a;        /* Charred black */
+@define-color muted #4a2020;       /* Smoky ember */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(10, 10, 10, 0.9);
+    color: @foreground;
+    border-bottom: 2px solid @primary;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: @muted;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.active {
+    background: rgba(255, 0, 255, 0.1);
+    color: @primary;
+    border-bottom: 3px solid @primary;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 51, 51, 0.2);
+    color: @secondary;
+}
+
+#cpu, #memory, #temperature, #network, #pulseaudio, #battery, #clock {
+    padding: 0 10px;
+    color: @foreground;
+}
+
+#cpu {
+    color: @secondary;
+}
+
+#memory {
+    color: @warning;
+}
+
+#temperature {
+    color: @danger;
+}
+
+#temperature.critical {
+    background: @danger;
+    color: @background;
+}
+
+#network {
+    color: @info;
+}
+
+#pulseaudio {
+    color: @primary;
+}
+
+#battery {
+    color: @success;
+}
+
+#battery.critical:not(.charging) {
+    background: @danger;
+    color: @background;
+    animation: blink 0.5s linear infinite alternate;
+}
+
+#clock {
+    color: @light;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    to {
+        background-color: @background;
+        color: @danger;
+    }
+}

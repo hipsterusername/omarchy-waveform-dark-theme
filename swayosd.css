@@ -1,0 +1,45 @@
+@define-color background-color #0a0a0aee;  /* Deepest hell black with transparency */
+@define-color border-color #ff00ff;        /* Unicorn magenta */
+@define-color label #ff9999;               /* Pale fire pink */
+@define-color image #ff9999;               /* Pale fire pink */
+@define-color progress #ff3333;            /* Hellfire red */
+
+window {
+    background: @background-color;
+    border: 2px solid @border-color;
+    border-radius: 10px;
+}
+
+#container {
+    padding: 15px;
+}
+
+#image {
+    color: @image;
+    font-size: 48px;
+}
+
+#label {
+    color: @label;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+progressbar {
+    background: rgba(74, 32, 32, 0.5);
+    border-radius: 5px;
+    min-height: 10px;
+}
+
+progressbar > trough {
+    background: rgba(74, 32, 32, 0.5);
+    border-radius: 5px;
+}
+
+progressbar > trough > progress {
+    background: linear-gradient(90deg, @progress, @border-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+}

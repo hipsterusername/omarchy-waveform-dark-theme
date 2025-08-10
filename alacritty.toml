@@ -1,0 +1,36 @@
+[colors.primary]
+background = "#0a0a0a"  # Deepest hell black
+foreground = "#ff9999"  # Pale fire pink
+
+[colors.cursor]
+cursor = "#ff00ff"      # Mystical unicorn magenta
+text = "#0a0a0a"        # Dark contrast
+
+[colors.normal]
+black = "#1a0a0a"       # Charred black
+red = "#ff3333"         # Hellfire red
+green = "#ff6600"       # Molten orange (success in hell)
+yellow = "#ffaa00"      # Flame yellow
+blue = "#cc00ff"        # Unicorn purple
+magenta = "#ff00aa"     # Hot pink magic
+cyan = "#ff66cc"        # Mystic rose
+white = "#ffcccc"       # Ash white
+
+[colors.bright]
+black = "#4a2020"       # Smoky ember
+red = "#ff6666"         # Bright flames
+green = "#ff9933"       # Lava glow
+yellow = "#ffcc33"      # Solar flare
+blue = "#dd66ff"        # Bright unicorn
+magenta = "#ff33cc"     # Neon magic
+cyan = "#ff99dd"        # Light mystic
+white = "#ffffff"       # Pure unicorn white
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+size = 11.0
+
+[window]
+padding.x = 10
+padding.y = 10
+opacity = 0.95

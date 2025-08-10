@@ -1,0 +1,87 @@
+# Waveform Theme for Btop
+# A unicorn in hell - fiery reds with mystical purples
+
+# Main background color
+theme[main_bg]="#0a0a0a"
+
+# Main text color
+theme[main_fg]="#ff9999"
+
+# Title color for boxes
+theme[title]="#ff00ff"
+
+# Highlight color for selected items
+theme[hi_fg]="#ffcccc"
+
+# Selected item background
+theme[selected_bg]="#4a2020"
+
+# Selected item text
+theme[selected_fg]="#ff00ff"
+
+# Inactive/disabled elements
+theme[inactive_fg]="#4a2020"
+
+# Process box color
+theme[proc_misc]="#ff9999"
+
+# CPU box outline
+theme[cpu_box]="#ff00ff"
+
+# Memory/Disk box outline
+theme[mem_box]="#ff3333"
+
+# Net box outline
+theme[net_box]="#cc00ff"
+
+# Process box outline
+theme[proc_box]="#ff00aa"
+
+# Divider line color
+theme[div_line]="#4a2020"
+
+# Graphs
+theme[graph_text]="#ff6666"
+
+# CPU gradients - from purple (low) to orange to red (high)
+theme[cpu_start]="#cc00ff"
+theme[cpu_mid]="#ff6600"
+theme[cpu_end]="#ff0000"
+
+# Memory gradients - from pink to red
+theme[mem_start]="#ff66cc"
+theme[mem_mid]="#ff3333"
+theme[mem_end]="#cc0000"
+
+# Network gradients - from magenta to red
+theme[download_start]="#ff00ff"
+theme[download_mid]="#ff0066"
+theme[download_end]="#ff3333"
+
+theme[upload_start]="#cc00ff"
+theme[upload_mid]="#ff00aa"
+theme[upload_end]="#ff6666"
+
+# Process gradients
+theme[process_start]="#ff00ff"
+theme[process_mid]="#ff3333"
+theme[process_end]="#ff6600"
+
+# Temperature gradients - from warm to burning hot
+theme[temp_start]="#ffaa00"
+theme[temp_mid]="#ff6600"
+theme[temp_end]="#ff0000"
+
+# Battery gradient if applicable
+theme[battery_start]="#ff00ff"
+theme[battery_mid]="#ff6600"
+theme[battery_end]="#ff3333"
+
+# Clock color
+theme[clock]="#ffcccc"
+
+# Input text color
+theme[input_text]="#ffffff"
+
+# Error text color
+theme[error_text]="#ff0000"

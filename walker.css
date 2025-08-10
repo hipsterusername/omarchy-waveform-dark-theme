@@ -1,0 +1,72 @@
+@define-color selected-text #ff00ff;  /* Unicorn magenta */
+@define-color text #ff9999;           /* Pale fire pink */
+@define-color base #0a0a0a;           /* Deepest hell black */
+@define-color surface #1a0a0a;        /* Charred black */
+@define-color overlay #4a2020;        /* Smoky ember */
+@define-color muted #ff6666;          /* Bright flames */
+@define-color subtle #ff3333;         /* Hellfire red */
+@define-color border #ff00ff;         /* Unicorn magenta */
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#window {
+    background: rgba(10, 10, 10, 0.95);
+    border: 2px solid @border;
+    border-radius: 10px;
+}
+
+#box {
+    padding: 20px;
+}
+
+#search {
+    background: @surface;
+    border: 2px solid @border;
+    border-radius: 5px;
+    padding: 10px;
+    color: @text;
+    font-size: 14px;
+}
+
+#search:focus {
+    border-color: @selected-text;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+#list {
+    margin-top: 10px;
+}
+
+#entry {
+    padding: 10px;
+    margin: 5px 0;
+    background: @surface;
+    border-radius: 5px;
+    color: @text;
+}
+
+#entry:hover {
+    background: @overlay;
+    border-left: 3px solid @subtle;
+}
+
+#entry:selected {
+    background: linear-gradient(90deg, rgba(255, 0, 255, 0.2), rgba(255, 51, 51, 0.2));
+    border-left: 3px solid @selected-text;
+    color: @selected-text;
+}
+
+#entry #icon {
+    margin-right: 10px;
+}
+
+#entry #name {
+    font-weight: bold;
+}
+
+#entry #description {
+    color: @muted;
+    font-size: 12px;
+}
