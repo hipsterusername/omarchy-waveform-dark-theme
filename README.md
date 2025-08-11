@@ -2,6 +2,8 @@
 
 A dark, modern theme inspired by audio waveforms and neon signals. Deep charcoal bases are accented by magentas, reds, and pinks for a sleek, high-contrast look.
 
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/f6dcde9f-28c0-41e6-a5b1-8a38a382d463" />
+
 ## Theme Concept
 - **Signal & Flow**: Smooth waveform lines and motion-inspired accents
 - **Neon Accents**: Magenta and red highlights on a deep, neutral base
@@ -54,9 +56,11 @@ A dark, modern theme inspired by audio waveforms and neon signals. Deep charcoal
 - Icons - Red-dark Yaru icons
 
 ## Installation
-1. Copy this theme directory to your omarchy themes folder
-2. Ensure you have a suitable Waveform wallpaper in `backgrounds/dc3b9142-19c7-4f9b-8578-337ed0430621.png`
-3. Apply the theme using your theme switcher
+Install using Super + Alt + Space > Install > Theme > Style
+
+OR 
+
+Copy this theme directory to your omarchy config themes folder
 
 ## Wallpaper Suggestions
 Look for images featuring:
